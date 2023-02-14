@@ -9,12 +9,12 @@
 //  
 // Input: [12, 32, 22, 45, 78, 12, 50]
 // Output: 78
-//  
+//  [-3,-2,-16]
 
 const findMax = (arr)=>{
-    let max = 0 ;
+    let max = arr[0] ;
 for (let i= 0 ; i<arr.length ; i++){
-    if (arr[i] >max){
+    if (arr[i] > max){
         max = arr[i]
     }
 }
