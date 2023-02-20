@@ -120,6 +120,8 @@ const roundDecimals = (arr) => {
 const employeesBonus = (arr) => {
     // write your code here
 
+
+
 //     let newArrr = arr
 
 //     for (const obj of newArrr) {
@@ -155,6 +157,24 @@ const employeesBonus = (arr) => {
 
 const mostExpensive = (budget, mouseArray, keyBoardArray) => {
     // write your code here
+// let arr =[];
+// for (let i =0 ; i<budget.length ; i++){
+
+//     if (mouseArray[i] == 50 && keyBoardArray[i] == 150){
+
+//  let sum = mouseArray[i] + keyBoardArray[i]
+
+// }
+// return sum 
+// }
+
+
+// if(budget[i] == 50){
+//     break;
+// }
+// return budget[i]
+// }
+
 }
 // -------------------------------------------------------------------------------------------------------
 
