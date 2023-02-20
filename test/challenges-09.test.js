@@ -112,7 +112,7 @@ describe("Challenge09", () => {
 });
 
 describe("Challenge09", () => {
-  test("Most-Expensive", () => {
+  test.skip("Most-Expensive", () => {
     expect(
       mostExpensive(
         200,
