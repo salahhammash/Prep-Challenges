@@ -132,7 +132,7 @@ function gradesAvg(arr) {
     const newMap = arr.map((e) => {
         let avg = e.gradsList.reduce((acc, element) => acc + element, 0) / e.gradsList.length;
         e.avg = avg;
-    return e
+        return e
     })
     return newMap
 
@@ -211,14 +211,20 @@ function gradesAvg(arr) {
 function studentsResult(arr) {
     // write your code here
 
-    const newMap = arr.map((e) => {
-        let avg = e.gradsList.reduce((acc, element) => acc + element, 0) / e.gradsList.length;
-        e.avg = avg;
-    return e
+    const newMap2 = arr.map((e) => {
+        let avg2 = e.gradsList.reduce((acc, element) => acc + element, 0) / e.gradsList.length
+        e.avg = avg2
+
+        if (e.avg >= 50) {
+            e.result = "Passed"
+        }
+        else {
+            e.result = "Failed"
+        }
+return e
     })
-    return newMap
 
-
+    return newMap2
 }
 // -------------------------------------------------------------------------------------------------------
 
