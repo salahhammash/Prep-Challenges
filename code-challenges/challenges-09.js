@@ -122,21 +122,21 @@ const employeesBonus = (arr) => {
 
 
 
-//     let newArrr = arr
+    //     let newArrr = arr
 
-//     for (const obj of newArrr) {
+    //     for (const obj of newArrr) {
 
-//         if (obj.workHours > 8) {
-
-
-//             obj.salary.slice(1,)
-//         } else {
-//             obj.salary + 50
-//         }
+    //         if (obj.workHours > 8) {
 
 
-//     }
-// return newArrr
+    //             obj.salary.slice(1,)
+    //         } else {
+    //             obj.salary + 50
+    //         }
+
+
+    //     }
+    // return newArrr
 }
 // -------------------------------------------------------------------------------------------------------
 
@@ -157,10 +157,16 @@ const employeesBonus = (arr) => {
 
 const mostExpensive = (budget, mouseArray, keyBoardArray) => {
     // write your code here
-let sum = 0
-mouseArray.forEach((e) => {
-    
+    let sum = 0
+    mouseArray.forEach((e) => {
+        keyBoardArray.forEach((x) => {
+    if (e + x > sum && e + x <= budget) {
+        sum = e + x
+    }
+})
+
 });
+return sum
 }
 // -------------------------------------------------------------------------------------------------------
 
