@@ -81,7 +81,7 @@ const replaceWords = (str) => {
     });
 
     return words.join(' '); // join the words back into a string
-}
+} 
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
@@ -93,7 +93,7 @@ const replaceWords = (str) => {
 // Input:["move","it","away","from","the","street"] 
 // Output: "move it away from the, street" 
 //
-
+    
 const arrToStr = (arr) => {
     // write your code here
 }
