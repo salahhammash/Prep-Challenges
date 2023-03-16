@@ -89,21 +89,11 @@ const filterLinks = (str) => {
 
 const isPalindrome = (str) => {
     // write your code here
-    // let regex = /[a-z]/;
-    // let b = str.toLowerCase().split("").filter((e)=>regex.test(e)) 
-
-    // let t =b.join("")
-    // let c = arr.reverse().join("")
-    // if (t === c){
-    //     return true
-    // }else {
-    //     return false}  str = str.toLowerCase();
 
     str = str.toLowerCase();
-    // Remove all non-alphanumeric characters from the string
+
     str = str.replace(/[^a-z0-9]/g, "");
 
-    // Check if the resulting string is equal to its reverse
     return str === str.split("").reverse().join("");
 
 
