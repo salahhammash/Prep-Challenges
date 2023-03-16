@@ -72,16 +72,20 @@ return a.slice(-1).join(" ")
 const replaceWords = (str) => {
     // write your code here
     const words = str.split(' '); // split the string into an array of words
+
     const replace = { 'I': 'We', 'am': 'are', 'was': 'were' }; // define the words to replace 
+
 
     words.forEach((word, index) => {
         if (word in replace) {
             words.splice(index, 1, replace[word]); // replace the word using splice
         }
+
     });  
 
     return words.join(' '); // join the words back into a string
 } 
+
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
@@ -96,6 +100,7 @@ const replaceWords = (str) => {
     
 const arrToStr = (arr) => {
     // write your code here
+
 }
 // -------------------------------------------------------------------------------------------------------
 
