@@ -100,4 +100,4 @@ const targetIndex = (arr, int) => {
 }
 // -------------------------------------------------------------------------------------------------------
 
-module.exports = { wordLength, wordLetters, targetIndex };
+module.exports = { wordLength, wordLetters, targetIndex }; 
